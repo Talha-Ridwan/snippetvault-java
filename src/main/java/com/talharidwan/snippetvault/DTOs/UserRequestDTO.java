@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.UUID;
 
 @Data
-public class UserRequestDTO {
+public class    UserRequestDTO {
     private String username;
     private String githubId;
     private String email;

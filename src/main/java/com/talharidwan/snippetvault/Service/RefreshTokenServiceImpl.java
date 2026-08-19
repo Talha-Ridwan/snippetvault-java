@@ -3,6 +3,7 @@ package com.talharidwan.snippetvault.Service;
 import java.util.UUID;
 
 public class RefreshTokenServiceImpl implements RefreshTokenService {
+    private final RefreshToken
     @Override
     public boolean validateRefreshToken(String token) {
         // Implement token validation logic here
@@ -11,8 +12,7 @@ public class RefreshTokenServiceImpl implements RefreshTokenService {
 
     @Override
     public String generateRefreshToken(UUID userId) {
-        // Implement refresh token generation logic here
-        return null;
+
     }
 
 }
